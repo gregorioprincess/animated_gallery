@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Page</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+
+        }
+
+        body{
+            margin: 0;
+        }
+        .row{
+            padding: 50px;
+        }
+        .col1{
+                width:25%;
+                padding: 10px 10px 20px 10px;
+                border: 2px solid red;
+                background-color: white;
+                box-shadow: 10px 10px 5px gray;
+                float: left;
+                -ms-transform: rotate(7deg);
+                -webkit-transform: rotate(7deg);
+                transform: rotate(7deg);
+        }
+
+        .col1 span{
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        .col1:hover{
+            transform: rotate(0deg);
+
+        }
+
+        .col2{
+            width: 25%;
+            padding: 10px 10px 20px 10px;
+            border: 2px solid red;
+            background-color: white;
+            box-shadow: 10px 10px 5px gray;
+            float: left;
+            -ms-transform: rotate(-8deg);
+            -webkit-transform: rotate(-8deg);
+            transform: rotate(-8deg);
+        }
+
+        .col2 span{
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        .col2:hover{
+            transform: rotate(0deg);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="row">
+
+        <div class="col1">
+            <img src="img/eudora.jpg" width="100%">
+            <span> Eudora</span>
+            <p class="desc1">Eudora casts fork lightning in a target direction, dealing 350(+150%Total Magic Power)
+                 Magic Damage to enemies in a fan-shaped area. Enemies affected by Superconductor will take 
+                 190(+30%Total Magic Power) extra Magic Damage after a short delay.  </p>
+        </div>
+
+        <div class="col2">
+            <img src="img/kimmy.jpg" width="100%">
+            <span>Kimmy </span>
+            <p class="desc2"> Kimmy is a girl who grew up in a military family where she was taught to be straightforward,
+                 self-disciplined, and obedient.
+                 She also has a passion for research and innovation. </p>
+       </div>
+
+       <div class="col1">
+        <img src="img/popol and kupa.jpg" width="100%">
+        <span> Popol and Kupa</span>
+        <p class="desc1"> Popol is a naughty boy who has ambitions and lofty ideals but is not understood. In order to prove himself, he went alone to hunt down the Icefield Dire Wolves, but accidentally fell into a trap. There was also an Dire Wolf called Kupa inside the trap. 
+            After a long time together, they developed a friendship and fought against a group of vultures together. 
+            Later, Popol and Kupa became the closest partners in the Ice Field. </p>
+    </div>
+
+    <!-- -->
+    <div class="col2">
+        <img src="img/thamuz.jpg" width="100%">
+        <span> Thamuz</span>
+        <p class="desc2"> Thamuz, the king of the fire demons, and his people made the Abyss into a formidable power. unabashed to use cruel methods in achieving his goals. 
+            Possessing ungodly natural strength, 
+            Thamuz was appointed chief of the Abyss, who led the Abyss to conquer all of the underworld. </p>
+   </div>
+
+
+    </div>
+
+
+</body>
+
+</html>
